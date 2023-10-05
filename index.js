@@ -2,7 +2,7 @@ import TelegramApi from 'node-telegram-bot-api'
 import ytdl from 'ytdl-core'
 import fs from 'fs'
 
-const token = process.env.TG_TOKEN
+const token = '6111868599:AAHUEv4-qUvSKb-QMO8zqpDJgFLdgfcpYUw'
 const bot = new TelegramApi(token, { polling: true })
 const gameOptions = {
   reply_markup: JSON.stringify({
